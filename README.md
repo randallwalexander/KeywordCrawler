@@ -7,4 +7,5 @@ with stop words stripped.
 
 metajunk.php - Crawls a given website - keywords found on the web page in freq with stop words.
 
-stopwords.txt - List of stopwords used by index.php
+stopwords.txt - List of stopwords used by index.php - Feel free to add to this file as needed. 
+Each website may require a few extra stop words added to it. 
