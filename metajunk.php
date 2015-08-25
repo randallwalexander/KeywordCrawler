@@ -7,7 +7,7 @@ URL: <input type="text" value="http://" size="50" name="url" />
 <input type="submit" />
 </form>
 <br />
-<b>This will check for bad keywords</B>
+<b>This will check for stop words</B>
 <br />
 Complete URL including http://  Otherwise it will not work.
 <br />
