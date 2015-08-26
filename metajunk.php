@@ -91,7 +91,7 @@ $html = str_replace("&nbsp;", " ", $html);
 
 ######remove any words################
 
-$remove_word = file("swordsempty.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$remove_word = file("stopwordsempty.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 foreach($remove_word as $word) {
 	$html = preg_replace("/\b". $word ."\b/", " ", $html);
 }
